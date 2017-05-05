@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-//Task author: Anna Fabija�ska
+//Task author: Anna Fabijañska
 //Program author: Jakub Czaja
 
 /*
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     int a = 0;
     while(fscanf(f, "%s", tab) != EOF)
     {
-        if(*tab == '(')     //doesn't work
+        if(*tab == '(')     //doesn't work ¯\_(ツ)_/¯
         {
             tab = strcpy(tab, tab + 1);
         }
