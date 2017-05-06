@@ -48,6 +48,7 @@ int main(int argc, char *argv[])
             ++a;
         }
     }
+    printf("%d", a);
     fclose(f);
     return a;
 }
